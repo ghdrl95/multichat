@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "3212e1e56c347199114e78cf713404b8c8edbdaf"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "client/1.0.0": {
+        "dependencies": {
+          "NAudio": "1.9.0"
+        },
+        "runtime": {
+          "client.dll": {}
+        }
+      },
+      "NAudio/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/NAudio.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PjcPhL5AnbF1YmZxqFYuAEVVRNCNWWIm6Gi32AGQ0dmHF9+s7TUFfVxEo46MbeIfpUE+Wz60ZNTLMXTxBI1m9w==",
+      "path": "naudio/1.9.0",
+      "hashPath": "naudio.1.9.0.nupkg.sha512"
+    }
+  }
+}

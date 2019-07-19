@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program1.cs" />
+    <Compile Remove="Program10.cs" />
+    <Compile Remove="Program11.cs" />
+    <Compile Remove="Program12.cs" />
+    <Compile Remove="Program13.cs" />
+    <Compile Remove="Program2.cs" />
+    <Compile Remove="Program3.cs" />
+    <Compile Remove="Program4.cs" />
+    <Compile Remove="Program5.cs" />
+    <Compile Remove="Program6.cs" />
+    <Compile Remove="Program7.cs" />
+    <Compile Remove="Program8.cs" />
+    <Compile Remove="Program9.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="1.9.0" />
+  </ItemGroup>
+
+</Project>
